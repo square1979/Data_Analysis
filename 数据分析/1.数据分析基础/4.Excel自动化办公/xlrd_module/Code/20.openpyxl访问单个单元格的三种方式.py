@@ -13,4 +13,5 @@ for row in range(1, 10):
     for col in range(1, row+1):
         ws.cell(row=row, column=col, value=f'{row}*{col}={str(row * col)}')
 
+
 wb.save('星星之火.xlsx')
